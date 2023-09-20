@@ -6,5 +6,6 @@ public class ClassesInJava
    {
       //This is a comment, ignored by Java.
       //Place statements here.
+
    }
 }
