@@ -12,6 +12,11 @@ files:
     visible: true
     encrypted_text: HRXImEgiHDgGKpUTsG5aRlIaILNNMhcw//z072bDxJLQhmjcEu1vH8BWhDQrojFI
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 20 Sep 2023 19:38:55 UTC"
 record: -1
+selected_options:
+  - 0
 local_check: true
