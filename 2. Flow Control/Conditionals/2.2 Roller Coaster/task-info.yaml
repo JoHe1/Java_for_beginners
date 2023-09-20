@@ -8,7 +8,7 @@ files:
     visible: true
     placeholders:
       - offset: 222
-        length: 13
+        length: 44
         placeholder_text: /* Replace with the appropriate condition */
         initial_state:
           length: 44

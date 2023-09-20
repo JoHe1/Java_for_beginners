@@ -1,13 +1,12 @@
 public class HundredthPrime
 {
-   public static void main(String[] args)
-   {
-      int cont_number_prime = 0;
+   public static void main(String[] args) {
       int prime_number = 1;
+      int prime_counter = 0;
       boolean prime_encounter;
-      while (cont_number_prime < 100) {
-         prime_encounter = true;
+      while (prime_counter < 100) {
          prime_number++;
+         prime_encounter = true;
          for (int divisor = prime_number - 1; divisor > 1; divisor--) {
             if (prime_number % divisor == 0) {
                prime_encounter = false;
@@ -15,7 +14,7 @@ public class HundredthPrime
             }
          }
          if (prime_encounter == true) {
-            cont_number_prime++;
+            prime_counter++;
          }
       }
       System.out.println(prime_number);
